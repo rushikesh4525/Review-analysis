@@ -1,0 +1,84 @@
+body{
+  background-color: #bebebec4;
+  overflow: hidden;
+}
+.main{
+  margin-left: 30px;
+}
+
+.app{
+
+display: flex;
+
+flex-direction: column;
+ 
+  box-shadow: 0px 5px 7px rgb(39, 38, 38);
+  }
+
+ 
+
+  .wrapper{
+    display: flex;
+    
+  }
+
+.wrapper_left{
+  flex: 1;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    gap: 0.4rem;
+    
+}
+
+.wrapper_right{
+  flex: 1;
+  align-items: center;
+  justify-content: right;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icon{
+  height: 40px;
+  width: 40px;
+}
+
+.r-name{
+  color: black;
+  text-shadow: 1px;
+  font-weight: 500;
+  
+}
+.wrote{
+  color: rgba(35, 35, 36, 0.767);
+}
+
+.date{
+  color: rgba(35, 35, 36, 0.767); ;
+ margin-left: 10px;
+}
+
+.icons , .save{
+  font-size: 25px;
+  cursor: pointer;
+  
+  
+}
+.save-black{
+  background-color:  red;
+}
+
+
+
+.review-list{
+
+padding: 2%;
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 3%;
+max-height: 80vh;
+overflow-y: auto;
+box-shadow: 0px 5px 7px rgb(39, 38, 38);
+}
